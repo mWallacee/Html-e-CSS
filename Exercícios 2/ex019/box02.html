@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.422);
+        }
+
+        header > h1 {
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.482);
+        }
+
+        nav {
+            background-color: rgb(112, 107, 107);
+            padding: 3px;
+        }
+
+        nav > a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            text-align: justify;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.452);
+        } 
+
+        li {
+            color: white;
+            font-weight: bold;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        article > h2 {
+            text-align: center;
+            color: white;
+            text-shadow: 3px 3px 3px gray;
+        }
+
+        article > aside {
+            background-color: #767676a3;
+            
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > p {
+            font-weight: bolder;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My website</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="news">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum in aliquid expedita quae quo rerum earum. Amet repellat veniam similique distinctio earum culpa nobis. Inventore vitae quae reprehenderit eius?
+                </p>
+                <aside>
+                    <p>Artigo escrito por Edalyn</p>
+                </aside>
+                <ul type="none">
+                    <li>Julia</li>
+                    <li>Geovanna</li>
+                    <li>Luiza</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mWallace</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? <br>Experimente apliar o tamanho da sua janela
+    para aproveitar a melho experiência &#128128;</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="Paisagens/Paisagem-400.jpg" type="image/jpg"> <!-- max-width = (até no máximo x pixels) -->
+        <source media="(max-width: 1050px )" srcset="Paisagens/Paisagem-700.jpg" type="image/jpg">
+        <img src="Paisagens/Paisagem-1000.jpg" alt="Paisagem Grande"> <!-- Mudar tamanho para 1300px -->
+    </picture>
+
+    <!-- Quando usar min-width Sempre do maior para o menor -->
+    <!-- Quando usar max-width Sempre do menor para o maior -->
+</body>
+</html>
