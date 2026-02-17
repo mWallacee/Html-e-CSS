@@ -1,2 +1,45 @@
 @charset "UTF-8";
 
+/* Fontes */
+@font-face {
+    font-family: Droids;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+/* Variaveis em CSS (palheta) */
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+* {
+    
+}
+
+body {
+    background-color:  var(--cor3);
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+img#Bugdroid {
+    display: block;
+    width: 450px;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+}
+
