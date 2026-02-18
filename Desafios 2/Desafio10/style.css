@@ -53,6 +53,7 @@ main {
     background-color: white;
     padding: 8px 10px;
     margin-top: 0;
+    text-align: justify;
     
 }
 
@@ -66,7 +67,6 @@ main > article > h2 {
 }
 
 main > article > p {
-    text-align: justify;
     text-indent: 1.5em;
 }
 
