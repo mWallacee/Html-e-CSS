@@ -99,12 +99,6 @@ img {
     width: 100%;
 }
 
-img#Bugdroid {
-    display: block;
-    margin: auto;
-    width: 450px;
-}
-
 iframe {
     display: block;
     margin: auto;
