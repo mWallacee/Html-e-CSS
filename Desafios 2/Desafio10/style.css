@@ -45,6 +45,14 @@ nav a {
     font-size: large;
     color: var(--cor2);
     margin-right: 10px;
+    padding: 2px 6px;
+}
+
+a.fakeLink:hover {
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 main {
@@ -102,11 +110,16 @@ img {
 iframe {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 90%;
 }
 
-footer strong {
+.mW{
     font-weight: bold;
     color: blueviolet;
+    text-decoration: none;
 }
 
+.mW:hover {
+    text-decoration: underline;
+    background-color: rgba(137, 43, 226, 0.26);
+}
