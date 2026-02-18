@@ -6,7 +6,7 @@
     src: url(pacote-projeto-d010/fontes/idroid.otf);
 }
 
-/* Variaveis em CSS (palheta) */
+/* Variaveis em CSS (paleta) */
 :root{
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -17,11 +17,80 @@
 }
 
 * {
-    
+    margin: 0;
 }
 
 body {
-    background-color:  var(--cor3);
+    background-color:  var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    padding: 25px 10px;
+    color: white;
+}
+
+header > h1, p {
+        text-align: center;
+        margin: 10px 10px;
+}
+nav {
+    background-color: var(--cor4);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: large;
+    color: var(--cor2);
+    margin-right: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 8px 10px;
+    margin-top: 0;
+    
+}
+
+main > article > h2 {
+    font-family: Droids;
+    font-weight: normal;
+    color: var(--cor4);
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    padding-left: 5px;
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    background-color: var(--cor1);
+    color: var(--co5);
+    font-weight: bold;
+    padding: 2px 6px;
+    after: U+26D3;
+}
+
+main a:hover {
+    text-decoration: underline;
+    background-color: var(--cor3);
+}
+
+a.externo:hover:after {
+    content: '\1F517';
 }
 
 img {
@@ -32,14 +101,18 @@ img {
 
 img#Bugdroid {
     display: block;
-    width: 450px;
     margin: auto;
+    width: 450px;
 }
 
 iframe {
     display: block;
     margin: auto;
     width: 100%;
-    max-width: 650px;
+}
+
+footer strong {
+    font-weight: bold;
+    color: blueviolet;
 }
 
