@@ -32,9 +32,14 @@ header {
     color: white;
 }
 
-header > h1, p {
+header > h1 {
         text-align: center;
         margin: 10px 10px;
+}
+
+header > p {
+    text-align: center;
+    margin: 10px 10px;
 }
 nav {
     background-color: var(--cor5);
@@ -145,6 +150,14 @@ aside > p {
 
 aside > ul {
     columns: 2
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
 }
 
 .mW{
