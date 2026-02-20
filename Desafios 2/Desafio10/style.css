@@ -153,6 +153,8 @@ aside > ul {
 }
 
 footer {
+    max-width: 810px;
+    margin: auto;
     background-color: black;
     color: white;
     text-align: center;
