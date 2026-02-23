@@ -78,13 +78,13 @@ section.image > p{
 }
 
 section#img{
-    background: black url(imagens/background001.jpg) right bottom/ cover no-repeat fixed;
+    background: black url(imagens/background001.jpg) right center/ cover no-repeat fixed;
     padding-left: 30px;
 }
 
 
 section#img2{
-    background: black url(imagens/background002.jpg) right bottom /cover no-repeat fixed;
+    background: black url(imagens/background002.jpg) right center /cover no-repeat fixed;
     padding-left: 30px
 }
 
